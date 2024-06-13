@@ -1,16 +1,19 @@
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
 
 body {
-    @apply bg-gray-50;
+   @apply bg-gray-50;
  }
 
  @layer componets {
-   .btn
-   {
-      @apply bg-[#12b4488] text-white px-3 py-2 rounded-md text-sm text-white;
-   }
+   .btn {
+      @apply font-bold py-2 px-4 rounded;
+    }
+    .btn-blue {
+      @apply bg-blue-500 text-white;
+    }
+    .btn-blue:hover {
+      @apply bg-blue-700;
+    }
 }
