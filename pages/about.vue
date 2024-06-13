@@ -1,8 +1,8 @@
 <template>
     <div>
         <h2>About</h2>
-        <iframe src="https://www.elegantthemes.com" height="900" width="1300"></iframe>
     </div>
+    <iframe src="https://jortiga.github.io/aib/"></iframe>
 </template>
 
 <script setup>
@@ -16,5 +16,12 @@
     }
     p {
         margin: 20px 0;
+    }
+    iframe {
+        display: block;
+        background: #000;
+        border: none;
+        height: 100vh;
+        width: 100%;
     }
 </style>
