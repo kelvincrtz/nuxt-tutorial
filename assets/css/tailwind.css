@@ -1,0 +1,16 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+body {
+    @apply bg-gray-50;
+ }
+
+ @layer componets {
+   .btn
+   {
+      @apply bg-[#12b4488] text-white px-3 py-2 rounded-md text-sm text-white;
+   }
+}
